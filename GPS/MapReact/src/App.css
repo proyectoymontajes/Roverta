@@ -1,0 +1,47 @@
+body {
+  overflow: hidden;
+}
+.overlay {
+  position: fixed;
+  display: flex;
+  flex-flow: column wrap;
+  z-index: 1;
+  font-size: 1rem;
+  margin: 0.5rem 1rem;
+  color: aliceblue;
+}
+.btnsContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.Btn {
+  font-weight: bolder;
+  background-color: rgba(0, 0, 0, 0.35);
+  padding: 0.5rem;
+  margin: 0 0.2rem;
+  border-radius: 0.5rem;
+}
+.Btn:hover {
+  cursor: pointer;
+}
+.Btn:active {
+  color: dimgray;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.coordsDiv{
+  width: fit-content;
+}
+.coordsH2 {
+  margin: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.35);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-weight: bolder;
+  backdrop-filter: blur(2px);
+}
+.mapDiv {
+  width: 100%;
+  height: 50rem;
+}

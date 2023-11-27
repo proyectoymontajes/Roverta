@@ -1,0 +1,3 @@
+Este mapa esta hecho en react con typescript. La app usa la funcion gps del celular para obtener la latitud y longitud, estos datos se mandan a una base de datos de firebase que esta conectada con la app tambien. El valor que detecta automaticamente llega y se muestra en la pagina, asimismo se mueve el marcador en el mapa.
+
+PAra que funcione se necesita tener la web app en host( ya sea local o remoto) y la app de android instalada en un celular.
